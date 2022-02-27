@@ -6,7 +6,9 @@ Dalam materi hariini mempelajari :
   1. Sejarah mengenai version control branch managemen
   2. Setting up and push GIT
   3. Branch and Konflik (revisi kesalahan)
+  
 Version Control And Branch Management (GIT)
+
 Git adalah version control system yang digunakan para developer untuk mengembangkan software secara bersama-bersama. Fungsi utama git yaitu mengatur versi dari source code program anda dengan mengasih tanda baris dan code mana yang ditambah atau diganti. Git ini sebenernya memudahkan programmer untuk mengetahui perubahan source codenya daripada harus membuat file baru. Selain itu, dengan git kita tak perlu khawatir code yang kita kerjakan bentrok, karena setiap developer bias membuat branch sebagai workspacenya.Fitur yang tak kalah keren lagi, pada git kita bisa memberi komentar pada source code yang telah ditambah/diubah, hal ini mempermudah developer lain untuk tahu  kendala apa yang dialami developer lain. 
 
 Setting up dan push
