@@ -59,7 +59,9 @@ Dari adanya fitur-fitur desain dan aplikasi UI dan UX yang tersedia, Figma membe
 4. Ganti Nama File
 5. Tambah Gambar
 6. Buat Header
+
   Melakukan set up terhadap frame dan juga grid yang ada
+  
 1. Bentuk Miring Untuk Mengubah Ukuran Isometrik Mudah
 2. Tata Letak Kolom
 3. Menghapus Spasi Antar Item
