@@ -43,7 +43,7 @@ Opening tag
 
 Tag pembuka terdiri dari nama dari elemen itu sendiri. Pada contoh diatas opening tag <h2> mendeskripsikan bahwa elemen tersebut adalah sebuah subheading ke dua. 
 Jika elemen adalah sebuah paragraph, maka opening tag akan menjadi <p>. Opening tag adalah dimana sebuah elemen dan efek dari HTML tersebut dimulai.
-
+          
 Closing tag 
 
 Sama seperti opening tag, tag penutup atau closing tag juga terdiri dari nama elemen itu sendiri. Bedanya closing tag mempunyai garis miring sebelum nama elemen  </>.
