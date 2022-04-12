@@ -1,8 +1,8 @@
-<4> Figma Prototyping
+<h1><4> Figma Prototyping</h1>
 
-Resume
+ <h1>Resume</h1>
 
-Outline dari pembelajaran hariini ada 12 hal yaitu :
+ <h3>Outline dari pembelajaran hariini ada 12 hal yaitu :</h3>
 1.	Pengenalan figma
 2.	Membuat web desain di figma
 3.	Melakukan set up terhadap frame dan juga grid yang ada
