@@ -1,6 +1,6 @@
 <h1><3> INTRODUCTION UI AND UX</h1>
 <h1>RESUME<h1>
-<h2>Materi yang dipelajari :<h2> 
+<h3>Materi yang dipelajari :<h3> 
 <li>User Personal</li>
 <li>User Interface</li>
 <li>User Experience</li>
