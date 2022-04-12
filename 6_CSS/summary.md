@@ -1,7 +1,6 @@
-<h1>(6)_CSS</h1>
-
-<h2>Resume</h2>
-<p>Dalam materi ini, mempelajari :<p>
+<h1><6> CSS</h1>
+<h1>Resume</h1>
+ <h3>Dalam materi ini, mempelajari :</h3>
   <li>Pengertian CSS</li>
   <li>Fungsi CSS</li>
   <li>Cara menambahkan file CSS</li>
