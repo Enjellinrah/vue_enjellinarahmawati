@@ -53,7 +53,7 @@ Figma sebagai tools desain memiliki kelebihan dibandingkan tools desain lain yan
 
 Dari adanya fitur-fitur desain dan aplikasi UI dan UX yang tersedia, Figma memberikan berbagai inovasi unik yang dapat membantu pengguna menyajikan desain dan ide dengan fitur-fitur canggih.
 
- <h2>langkah - langkah membuat desain website memakai Figma. langsung saja berikut langkah - langkahnya :</h2>
+ <h2>Langkah - langkah membuat desain website memakai Figma. langsung saja berikut langkah - langkahnya :</h2>
  
 1. Buka Aplikasi Figma
 2. Buat File Baru
