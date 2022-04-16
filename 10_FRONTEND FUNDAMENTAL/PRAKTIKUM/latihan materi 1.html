@@ -17,7 +17,7 @@
 </body>
 <style>
 .contaliner {
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
 }
 .content {
@@ -42,14 +42,23 @@
 #grey {
     background-color: grey;
 }
-.contaliner{
-    margin: 0;
+
+@media screen and (max-width: 599.9px) {
+    .content {
+        width: 40%;
+    }
 }
-@media screen and (max-width: 600px) {
+
+@media (min-width: 600px) and (max-width: 959.99px) {
+    .content {
+        width: 50%;
+    }
 }
-@media screen and (min-width: 600px) {
-}
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 960px) {
+    .content {
+        width: 30%;
+    }
 }
 </style>
 </html>
