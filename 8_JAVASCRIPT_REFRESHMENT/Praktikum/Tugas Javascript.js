@@ -5,8 +5,8 @@ console.log(lengkap_arr[2]); //jawaban nomor 1 bagian a menghasilkan jawaban bud
 
 
 //jawaban no 2
-//a. karena pada fariabel terdaftar pada line ke 4, yang didefinisikan atau dideklarasikan mempunyai value false sedangkan pada line 21 value pada variabel terdaftar dibandingkan dengan true sehingga hasil dari perbandingan tersebut tidak kenampilkan output.
-//b. karena tipe data antara variabel nama dan b tidaklah sama dan cons tidak dapat reasigment
+//a. karena pada variabel terdaftar pada line ke 4, yang didefinisikan atau dideklarasikan mempunyai value false, sedangkan pada line 21 value pada variabel terdaftar dibandingkan dengan true sehingga hasil dari perbandingan tersebut tidak menampilkan output.
+//b. karena tipe data antara variabel nama dan b tidaklah sama dan cons tidak dapat reasigment.
 //c. tidak dapat karena pada baris 28 variabel asal hanya ada pada function perkenalan ().
 
 
