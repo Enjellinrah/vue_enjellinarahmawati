@@ -1,5 +1,5 @@
 <h1>11_VUE FUNDAMENTAL</h1>
-
+<h2>RESUME</h2
 <h3>Materi yang dipelajari yaitu :</h3>
 <li>Pengenalan Vue</li>
 <li>Vue Setup dan Resources</li>
