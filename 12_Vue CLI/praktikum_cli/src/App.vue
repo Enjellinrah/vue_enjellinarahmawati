@@ -5,10 +5,9 @@
         {{ todo }}
       </li>
     </ol>
-        <input type="text" v-model="newTodo"/>
-        <button @click="addTodo">Tambahkan</button>
-        <p v-if="this.todos.length >= 4">Hebat!</p>
-        <p v-if="this.todos.empty = false"></p>
+    <input type="text" v-model="newTodo"/>
+    <button v-on:click="addTodo">Tambahkan</button>
+    <p v-if="this.todos.length >= 4">Hebat!</p>
   </div>
 </template>
 
@@ -23,10 +22,12 @@ export default {
   },
   methods: {
     addTodo() {
-      this.todos.push(this.newTodo);
-      this.newTodo = "";
-    },
-  },
+      if (this.newTodo.trim()) {
+        this.todos.push(this.newTodo);
+        this.newTodo = "";
+      }
+    }
+  }
 };
 </script>
 
