@@ -1,21 +1,21 @@
 <template>
    <div id="app" class="container">
-      <h1>Todo List</h1>
+      <h3>Todo List</h3>
       <ol>
         <li v-for="(todo, index) in todos" :key="index">
           {{ todo }}
-          <button @click="editTodo(index, todo)">Edit</button>
-          <button @click="removeTodo(index)">Delete</button>
+          <button class="btn" @click="editTodo(index, todo)">Edit</button>
+          <button class="btn" @click="removeTodo(index)">Hapus</button>
         </li>
       </ol>
       <div v-if="!isEditing">
-        <input type="text" v-model="todo" />
-        <input type="submit" value="Tambahkan" @click="storeTodo" />
+        <input class="ipt" type="text" v-model="todo" />
+        <input class="submit" type="submit" value="Tambahkan" @click="storeTodo" />
         <p v-if="this.todos.length >= 4">Hebat!</p>
       </div>
       <div v-else>
-        <input type="text" v-model="todo" />
-        <input type="submit" value="Update" @click="updateTodo" />
+        <input class="ipt" type="text" v-model="todo" />
+        <input class="submit" type="submit" value="Update" @click="updateTodo" />
       </div>
       
     </div>
@@ -55,14 +55,17 @@ export default {
 </script>
 
 <style>
-h1 {
-  color: maroon;
+h3 {
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  padding: 30px;
+  margin-top: 50px;
+  font-family: 'Times New Roman', Times, serif;
 }
-li {
-  margin: 20px;
+.ipt {
+  width: 91%;
+}
+.btn {
+  margin: 15px;
+  width: 7%;
+}
 
-}
 </style>
