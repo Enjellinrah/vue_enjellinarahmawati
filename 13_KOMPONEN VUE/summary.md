@@ -2,9 +2,9 @@
 
 <h2>Resume</h2>
 Dalam materi ini mempelajari:
-1. Module Export dan Import
-2. Paradigma Fungsi Pembantu
-3. Instance Lifecycle Hooks
+<li> Module Export dan Import</li>
+<li> Paradigma Fungsi Pembantu</li>
+<li> Instance Lifecycle Hooks</li>
 
 <h2>Module Export dan Import</h2>
 Modul bisa berisi kelas atau pustaka fungsi untuk tujuan tertentu. modul hanya sebuah file. satu kode skript adalah satu modul.
