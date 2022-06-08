@@ -14,7 +14,7 @@
 			<thead>
 				<tr>
 					<th style="width: 6%">No</th>
-					<th style="width: 70%">ToDos</th>
+					<th style="width: 70%">To Dos</th>
 					<th>Action</th>
 				</tr>
 			</thead>
