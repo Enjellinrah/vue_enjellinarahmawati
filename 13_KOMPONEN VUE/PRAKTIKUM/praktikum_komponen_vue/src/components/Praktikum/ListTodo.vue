@@ -1,24 +1,35 @@
 <template>
-   <div id="app" class="container">
-      <h3>Todo List</h3>
-      <ol>
-        <li v-for="(todo, index) in todos" :key="index">
-          {{ todo }}
-          <button class="btn" @click="editTodo(index, todo)">Edit</button>
-          <button class="btn" @click="removeTodo(index)">Hapus</button>
-        </li>
-      </ol>
-      <div v-if="!isEditing">
-        <input class="ipt" type="text" v-model="todo" />
-        <input class="submit" type="submit" value="Tambahkan" @click="storeTodo" />
-        <p v-if="this.todos.length >= 4">Hebat!</p>
-      </div>
-      <div v-else>
-        <input class="ipt" type="text" v-model="todo" />
-        <input class="submit" type="submit" value="Update" @click="updateTodo" />
-      </div>
-      
-    </div>
+  <div id="todolist">
+		<div class="container p-5">
+			<h1 class="mb-4">ToDo List</h1>
+			<div class="input-group mb-5 w-100">
+				<input type="text" class="form-control" v-model="todosForm"> 
+				<div class="input-group-append" v-if="isEdit"> 
+				<button class="btn btn-success" id="edit-todos" v-on:click="updateTodos">Update</button> 
+			</div>
+			<div class="input-group-append" /><button class="btn btn-primary" id="add-todos" v-on:click="addTodos">Tambahkan</button>
+			</div>
+		</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<th style="width: 6%">No</th>
+					<th style="width: 70%">ToDos</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr v-for="(todo, index) in todos" :key="index">
+					<td>{{ index+1 }}</td> 
+					<td>{{ todo }}</td> 
+					<td>
+						<button class="btn btn-info" v-on:click="editTodos(index)">Edit</button> 
+						<button class="btn btn-danger" v-on:click="deleteTodos(index)">Hapus</button> 
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 </template>
 
 <script>
@@ -26,46 +37,37 @@ export default {
   name: "ListTodo",
   data() {
     return  {
-          isEditing: false,
-          todo: "",
-          todos: [],
-          selectedTodo: null,
-        }
+		todosForm: '', 
+		isEdit: false, 
+		edited: '',
+		todos: [],
+    }
   },
-  methods: {
-    storeTodo() {
-      this.todos.push(this.todo);
-      this.todo = "";
-    },
-    removeTodo(index) {
-      this.todos.splice(index, 1);
-    },
-    updateTodo() {
-      this.todos.splice(this.selectedIndex, 1, this.todo);
-      this.todo = "";
-      this.isEditing = false;
-    },
-    editTodo(index, todo) {
-      this.isEditing = true;
-      this.todo = todo;
-      this.selectedIndex = index;
-    },
+  methods : {
+    addTodos() {
+			this.todos.push(this.todosForm); 
+			this.todosForm = ''; 
+		},
+	editTodos(index) { 
+		this.todosForm = this.todos[index]; 
+		this.edited = index; 
+		this.isEdit = true; 
+		},
+    updateTodos() { 
+		this.todos[this.edited] = this.todosForm; 
+		this.edited = ''; 
+		this.todosForm = ''; 
+		this.isEdit = false;
+		},
+		deleteTodos(index) {  
+		this.todos.splice(index, 1); 
+	},
   },
 };
 </script>
-
 <style>
-h3 {
-  text-align: center;
-  margin-top: 30px;
-  font-family: 'Times New Roman', Times, serif;
+h1 {
+	text-align: center;
+	color: maroon;
 }
-.ipt {
-  width: 91%;
-}
-.btn {
-  margin: 30px;
-  width: 7%;
-}
-
 </style>
