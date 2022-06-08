@@ -57,14 +57,14 @@ export default {
 <style>
 h3 {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: 'Times New Roman', Times, serif;
 }
 .ipt {
   width: 91%;
 }
 .btn {
-  margin: 15px;
+  margin: 30px;
   width: 7%;
 }
 
