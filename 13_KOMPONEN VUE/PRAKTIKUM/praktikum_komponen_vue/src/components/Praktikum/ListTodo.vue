@@ -9,6 +9,7 @@
 			</div>
 			<div class="input-group-append" /><button class="btn btn-primary" id="add-todos" v-on:click="addTodos">Tambahkan</button>
 			</div>
+			<p v-if="this.todos.length >= 4">Hebat!</p>
 		</div>
 		<table class="table">
 			<thead>
