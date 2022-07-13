@@ -30,7 +30,7 @@
 				</tr>
 			</tbody>
 		</table>
-		<p v-if="this.todos.length >= 4">Hebat!</p>
+		
 	</div>
 </template>
 
