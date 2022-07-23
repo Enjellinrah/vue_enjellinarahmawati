@@ -6,7 +6,7 @@ Dalam materi ini mempelajari :
 Pengambilan data oleh program perangkat lunak atau skrip. Setelah diambil, data dipindahkan ke lokasi alternatif atau ditampilkan di layar.
 <h3>Cara kerja fetch API</h3>
 API yaitu Sebuah protokol pada dasarnya menyediakan bahasa dan kontrak untuk Bagaimana dua sistem berinteraksi.
-<h3>Apa itu api endpoint?</h3>
+<h3>API endpoint</h3>
 Saat API  berinteraksi dengan sistem lain,  titik kontak dari komunikasi ini dianggap sebagai endpoint, yang berbentuk link.
 <h3>Fetch Data dengan Axios</h3> 
 Axios adalah sebuah pustaka yang dipakai front end melakukan http request kepada Link API endpoint.
