@@ -28,4 +28,4 @@ Kepanjangan dari Search Engine Optimization, yaitu proses meningkatkan kualitas 
 <h3>Cara kerja SEO Meta</h3>
 Dapat diterapkan dari nuxt config untuk pengaturan global, yaitu konten head akan sama di setiap halaman aplikasi. 
 <h3>PWA</h3>
-Kepanjangan dari Progessive Web Apps. Dibuat dan disempurnakan dengan API modern untuk menghadirkan peningkatan kemampuan, keandalan, dan kemudahan pemasangan sekaligus menjangkau siapa saja, di mana saja, di perangkat apapun dengan basis kode tunggal. 
+Kepanjangan dari Progressive Web Apps. Dibuat dan disempurnakan dengan API modern untuk menghadirkan peningkatan kemampuan, keandalan, dan kemudahan pemasangan sekaligus menjangkau siapa saja, di mana saja, di perangkat apapun dengan basis kode tunggal. 
