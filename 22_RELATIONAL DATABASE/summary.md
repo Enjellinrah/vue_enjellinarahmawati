@@ -25,7 +25,7 @@ Perintah yang digunakan untuk memanipulasi data dalam tabel dari suatu database.
 <h5>Statement Operation</h5>
 <li>INSERT</li>
 <li>SELECT</li>
-<li>UPDATE/li>
+<li>UPDATE</li>
 <li>DELETE</li>
 <h4>DML Statement</h4>
 <li>Like/between</li>
