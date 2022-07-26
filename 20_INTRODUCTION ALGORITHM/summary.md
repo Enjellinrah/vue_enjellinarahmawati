@@ -2,7 +2,7 @@
 <h2>Resume</h2>
 Dalam materi ini mempelajari :
 <h2>Pengenalan Algoritma</h2>
-<h3>Algoritma adalah prosedur komputasi yang didefinisikan dengan baik yang mengambil beberapa nilai sebagai input dan menghasilkan beberapa sebagai output.</h3>
+<p>Algoritma adalah prosedur komputasi yang didefinisikan dengan baik yang mengambil beberapa nilai sebagai input dan menghasilkan beberapa sebagai output.</p>
 Contoh Algoritma:
 <li>Check Prime Number</li> 
 <li>Sorting</li>
