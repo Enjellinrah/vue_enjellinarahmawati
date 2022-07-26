@@ -15,7 +15,7 @@ Database adalah sekumpulan data yang terorganisir.
 <li>One to many</li>
 <li>Many to many</li>
 <h3>Relational Database Management Systems</h3>
-Software yang menggunakan Relational Database Model sebagai dasarnya contoh :MySQL
+Software yang menggunakan Relational Database Model sebagai dasarnya contoh :MySQL.
 <h3>Jenis perintah SQL</h3>
 DDL, DML, DCL.
 <h3>Tipe Data</h3>
