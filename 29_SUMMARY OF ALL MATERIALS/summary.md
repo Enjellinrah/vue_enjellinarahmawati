@@ -860,7 +860,7 @@ Untuk membuat store dengan vuex  dapat menggunakan sintaks sebagai berikut, kemu
 <h3>Vuex Mutations </h3>
 Untuk memodifikasi nilai dari state yang tersimpan di dalam store Menggunakan sintaks mutation, kemudian dari komponen dapat memanggil fungsi mutations yang telah dibuat. Berdasarkan praktek terbaik penggunaan mutations, hanya bertujuan untuk mengubah nilai variabel yang ada di dalam store Tanpa ada logika pengolahan muatan di dalam fungsi mutation tersebut. Jadi dari komponen vue  disarankan untuk terhubung ke actions  sedangkan action akan berhubungan langsung dengan mutations.
 <h3>Vuex actions</h3>
-Bertugas sebagai pintu masuk perintah yang menghubungkan komponen dengan Store. action perlu memanggil fungsi di mutations untuk memodifikasi nilai state yang ada di Store. Selain itu, action juga tempat untuk melakukan komunikasi dengan API
+Bertugas sebagai pintu masuk perintah yang menghubungkan komponen dengan Store. action perlu memanggil fungsi di mutations untuk memodifikasi nilai state yang ada di Store. Selain itu, action juga tempat untuk melakukan komunikasi dengan API.
 <h3>Memecah Store sebagai modul</h3>
 Salah praktek terbaik penggunaan vuex store adalah  memisah atau mengisolasi State,  mutations, dan actions  ke dalam modul-modul terpisah.
 <h3>Penyimpanan Global permanen</h3>
