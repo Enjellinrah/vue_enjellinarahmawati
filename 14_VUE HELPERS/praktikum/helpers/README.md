@@ -1,4 +1,4 @@
-# vue-helpers
+# helpers
 
 ## Project setup
 ```
